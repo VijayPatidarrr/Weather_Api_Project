@@ -27,8 +27,14 @@ html,body
     background-color: red;
 }  */
 
+@media (max-width: 500px) {
+    video {
+        height: 100vh;
+        width: auto !important;
+    }
+}
 video {
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -39,7 +45,7 @@ video {
 }
 
 body {
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .col .card
