@@ -1,0 +1,58 @@
+ /* *{
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+}
+
+.container
+{
+     background-color: skyblue;
+     position: absolute;
+    z-index: 9999;  
+    
+
+}
+
+
+#futter
+{
+    height: 200px;
+    width: 100vw;
+    background-color: red;
+}  */
+
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    /* height: 100vh; */
+    z-index: -1;
+    background-size: cover;
+}
+
+body {
+    overflow: hidden;
+}
+
+.col .card
+{
+    cursor: pointer;
+    background-color: #f0f0f0b7;
+}
+
+table {
+    background-color: #f0f0f0be;
+}
+
+.heading {
+    /* color: #fff; */
+    text-shadow: 1px 1px 1px black;
+}
